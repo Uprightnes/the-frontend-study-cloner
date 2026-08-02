@@ -1,0 +1,13 @@
+# Source — published package ships only compiled dist/
+src/
+tsconfig.json
+*.tsbuildinfo
+
+# Tests
+tests/
+*.test.ts
+*.spec.ts
+
+# Dev tooling
+.eslintrc*
+.prettierrc*

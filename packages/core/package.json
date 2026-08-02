@@ -1,0 +1,51 @@
+{
+  "name": "fsc-core",
+  "version": "0.2.0",
+  "description": "Capture, analysis, and assembly engine for Frontend Study Cloner.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "website-cloner",
+    "web-capture",
+    "playwright",
+    "nextjs",
+    "frontend",
+    "study",
+    "developer-tools"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/frontend-study-cloner.git"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf dist *.tsbuildinfo",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0",
+    "robots-parser": "^3.0.1",
+    "prettier": "^3.2.5",
+    "node-html-parser": "^6.1.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}

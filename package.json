@@ -1,0 +1,34 @@
+{
+  "name": "frontend-study-cloner",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Open-source toolkit for capturing public websites as runnable, study-friendly local codebases.",
+  "license": "MIT",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev": "npm run dev --workspace=fsc",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"packages/**/*.ts\"",
+    "test": "npm run test --workspace=fsc-core",
+    "test:watch": "vitest",
+    "typecheck": "tsc --build --pretty",
+    "clean": "npm run clean --workspaces --if-present && rm -rf node_modules",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.0",
+    "vitest": "^1.3.0"
+  }
+}
