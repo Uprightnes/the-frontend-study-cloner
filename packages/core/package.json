@@ -1,5 +1,5 @@
 {
-  "name": "fsc-core",
+  "name": "the-frontend-study-cloner-core",
   "version": "0.2.0",
   "description": "Capture, analysis, and assembly engine for Frontend Study Cloner.",
   "license": "MIT",
@@ -28,8 +28,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/frontend-study-cloner.git"
+    "url": "https://github.com/Uprightnes/the-frontend-study-cloner.git"
   },
+  "homepage": "https://github.com/Uprightnes/the-frontend-study-cloner#readme",
   "engines": {
     "node": ">=18.18.0"
   },

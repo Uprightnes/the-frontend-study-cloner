@@ -4,7 +4,7 @@
     "outDir": "dist",
     "rootDir": "src",
     "paths": {
-      "fsc-core": ["../core/src/index.ts"]
+      "the-frontend-study-cloner-core": ["../core/src/index.ts"]
     }
   },
   "include": ["src"],

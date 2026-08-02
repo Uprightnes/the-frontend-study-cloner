@@ -1,6 +1,6 @@
 import prompts from "prompts";
 import pc from "picocolors";
-import { ETHICAL_USE_NOTICE, createConsent, type EthicalConsent } from "fsc-core";
+import { ETHICAL_USE_NOTICE, createConsent, type EthicalConsent } from "the-frontend-study-cloner-core";
 
 /**
  * Displays the ethical-use notice and requires the user to type an exact

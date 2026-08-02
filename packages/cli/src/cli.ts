@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { Command } from "commander";
-import { DEFAULT_VIEWPORTS, generateVisualDiff } from "fsc-core";
+import { DEFAULT_VIEWPORTS, generateVisualDiff } from "the-frontend-study-cloner-core";
 import { runPipeline } from "./pipeline.js";
 import { reporter } from "./reporter.js";
 

@@ -8,7 +8,7 @@ import {
   type CrawlOptions,
   type CaptureResult,
   type Viewport,
-} from "fsc-core";
+} from "the-frontend-study-cloner-core";
 import { promptForConsent } from "./consentPrompt.js";
 import { reporter } from "./reporter.js";
 
